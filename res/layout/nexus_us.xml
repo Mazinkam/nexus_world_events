@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="30dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/na_nexus_txt" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="30dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/monday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_mon_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_mon_2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/tuesday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_tue_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/no_nexus" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_wed_name"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/wednesday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_wed_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/no_nexus" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/thursday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_thur_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/friday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_fri_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_fri_2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/saturday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sat_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sat_2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sat_3"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:paddingLeft="4dip"
+                android:text="@string/sunday" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sun_1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sun_2"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_sun_3"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+        
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+        
+    </TableLayout>
+
+</ScrollView>

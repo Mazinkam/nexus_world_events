@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/select_dungeon" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <AutoCompleteTextView
+                android:id="@+id/edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="3" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/dungeon_name" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/dungeon_name"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:textIsSelectable="True" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/norm_inst_reset" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/instance_reset"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:textIsSelectable="True" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/norm_inst_m_reset" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/instance_m_reset"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:textIsSelectable="True" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/e_inst_reset" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/e_instance_reset"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:textIsSelectable="True" />
+        </TableRow>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/e_inst_m_reset" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/e_instance_m_reset"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:textIsSelectable="True" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

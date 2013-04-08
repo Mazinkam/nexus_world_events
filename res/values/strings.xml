@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tera World Events</string>
+    <string name="hint">Editor #%d</string>
+    <string name="na_nexus_txt">NA Nexus schedule:</string>
+    <string name="eu_nexus_txt">EU Nexus schedule:</string>
+    <string name="na_dailies_txt">NA Dailies:</string>
+    <string name="eu_dailies_txt">EU Dailies:</string>
+    <string name="na_3v3_txt">NA Champions Skyring leaderboard:</string>
+    <string name="eu_3v3_txt">EU Champions Skyring leaderboard:</string>
+    <string name="na_fw_txt">NA Fraywind Canyon:</string>
+    <string name="na_elite_txt">NA Elite buffs:</string>
+    <string name="eu_elite_txt">EU Elite buffs:</string>
+    <string name="Filler">filler</string>
+    <string name="eu_fw_txt">EU Fraywind Canyon:</string>
+    <string name="na_3v3_time">na_3v3_time</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="none">None</string>
+    <string name="no_nexus">No Nexus.</string>
+    <string name="na_daily_dungeon">NA Daily Dungeons</string>
+    <string name="eu_daily_dungeon">EU Daily Dungeons</string>
+    <string name="menu_settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="select_dungeon">Type Dungeon name:</string>
+    <string name="norm_inst_reset">Instance Reset Time:</string>
+    <string name="norm_inst_m_reset">Instance Matching Reset Time:</string>
+    <string name="e_inst_reset">Elite Instance Reset Time:</string>
+    <string name="e_inst_m_reset">Elite Instance Matching Reset Time:</string>
+    <string name="dungeon_name">Selected Dungeon:</string>
+    <string name="no_data">No data.</string>
+
+</resources>

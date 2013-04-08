@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="30dip" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/na_elite_txt" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_elite"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/na_dailies_txt" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_dailie"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+        
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/na_daily_dungeon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/na_daily_dungeon"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="40dip" />
+        </TableRow>
+        
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="40dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/eu_elite_txt" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/eu_elite"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/eu_dailies_txt" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/eu_dailie"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+        
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+        
+                      <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/eu_daily_dungeon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/eu_daily_dungeon"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="4dip"
+                android:text="@string/Filler" />
+        </TableRow>
+        
+                <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip" />
+        </TableRow>
+        
+    </TableLayout>
+
+</ScrollView>
