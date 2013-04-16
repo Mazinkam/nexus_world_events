@@ -15,8 +15,13 @@
 package com.alicode.android.teraworldevents;
 
 import android.content.Intent;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.ActionBar.TabListener;
@@ -30,6 +35,8 @@ public class TeraTimeActivity extends SherlockFragmentActivity implements
 	private static final String KEY_MODELS = "models";
 	private static final String KEY_POSITION = "position";
 	private CharSequence[] models = new CharSequence[10];
+	private Rect t;
+	private View target;
 
 	@Override
 	public void onCreate(Bundle state) {
@@ -63,6 +70,7 @@ public class TeraTimeActivity extends SherlockFragmentActivity implements
 		if (state != null) {
 			bar.setSelectedNavigationItem(state.getInt(KEY_POSITION));
 		}
+
 	}
 
 	public boolean onCreateOptionsMenu(Menu menu) {

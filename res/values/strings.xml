@@ -3,8 +3,8 @@
 
     <string name="app_name">Tera World Events</string>
     <string name="hint">Editor #%d</string>
-    <string name="na_nexus_txt">NA Nexus schedule:</string>
-    <string name="eu_nexus_txt">EU Nexus schedule:</string>
+    <string name="na_nexus_txt">North American Nexus schedule:</string>
+    <string name="eu_nexus_txt">European Nexus schedule:</string>
     <string name="na_dailies_txt">NA Dailies:</string>
     <string name="eu_dailies_txt">EU Dailies:</string>
     <string name="na_3v3_txt">NA Champions Skyring leaderboard:</string>

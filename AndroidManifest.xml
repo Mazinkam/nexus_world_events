@@ -28,6 +28,7 @@
 		
 		<activity android:name="com.alicode.android.teraworldevents.AboutActivity"/>
 		<activity android:name="com.alicode.android.teraworldevents.HelpActivity" />
+		<activity android:name="com.alicode.android.teraworldevents.ServerStatusActivity" />
 
 	</application>
 

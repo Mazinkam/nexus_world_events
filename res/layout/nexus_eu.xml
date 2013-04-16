@@ -18,6 +18,7 @@
         <TableRow>
 
             <TextView
+                 android:id="@+id/eu_next_nexus"
                 android:layout_gravity="center_vertical"
                 android:gravity="center"
                 android:paddingLeft="4dip"

@@ -19,18 +19,16 @@ public class AboutActivity extends Activity {
 	}
 
 	void loadTime() {
-		String page ="<html>" +
-				"<body bgcolor='#6E6E6E' font color='white'><h3>About:</h3>" +
-				"This app features world events of the online MMORPG TERA ONLINE. It will show you the world events based on you own timezome. " +
-				"<br>" + 
-				"Here is a link to the <a href= 'http://tera.enmasse.com/'>NA</a> and <a href= 'http://tera-europe.com/en/home.html'>EU</a> versions respectively." +
-				"<br><br><br>"+
-				"<h3>Contact:</h3>" +
-				"If you have any suggestions,bug reports, content updates, etc. Feel free to email me" +
-				"<br>"+
-				" ali 'DOT' abdulkarim90 'AT' gmail 'DOT' com" +
-				"." +
-				"</body></html>";
+		String page = "<html>"
+				+ "<body bgcolor='#6E6E6E' font color='white'><h3>About:</h3>"
+				+ "This app features world events of the online MMORPG TERA ONLINE. It will show you the world events based on you own timezome. "
+				+ "<br>"
+				+ "Here is a link to the <a href= 'http://tera.enmasse.com/'>NA</a> and <a href= 'http://tera-europe.com/en/home.html'>EU</a> versions respectively."
+				+ "<br><br><br>"
+				+ "<h3>Contact:</h3>"
+				+ "If you have any suggestions,bug reports, content updates, etc. Feel free to email me"
+				+ "<br>" + " ali 'DOT' abdulkarim90 'AT' gmail 'DOT' com" + "."
+				+ "</body></html>";
 		browser.loadData(page, "text/html", "UTF-8");
 	}
 
@@ -42,3 +40,4 @@ public class AboutActivity extends Activity {
 		}
 	}
 }
+
